@@ -1,0 +1,35 @@
+[{
+        "model": "usuarios.usuario",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$UfOUE2r1gPi9EGK7qaN2QE$CnW078g0cP5/ez58C0A8/3fCyBcI0k4yIDWeA5MeKJk=",
+            "username": "admin",
+            "first_name": "Ana",
+            "last_name": "Admin",
+            "email": "admin@test.com",
+            "tipo": "ADM",
+            "is_superuser": true,
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-04-18T00:00:00Z",
+            "fecha_registro": "2025-04-18T00:00:00Z"
+        }
+    },
+    {
+        "model": "usuarios.usuario",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$UfOUE2r1gPi9EGK7qaN2QE$CnW078g0cP5/ez58C0A8/3fCyBcI0k4yIDWeA5MeKJk=",
+            "username": "bibmarifer",
+            "first_name": "María Fernanda",
+            "last_name": "Pérez",
+            "email": "mfperez@uni.edu.co",
+            "tipo": "BIB",
+            "is_superuser": false,
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-04-18T00:05:00Z",
+            "fecha_registro": "2025-04-18T00:05:00Z"
+        }
+    }
+]
