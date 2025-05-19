@@ -1,50 +1,32 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribución y entorno
+# Entornos virtuales
 env/
 venv/
-ENV/
-env.bak/
-venv.bak/
+*.pyc
+__pycache__/
 
-# Archivos de configuración de pruebas
+# Archivos SQLite (pueden ignorarse si no los necesitas versionar)
+db.sqlite3
+
+# Configuración de Pytest
 .pytest_cache/
-.cache/
-.coverage
-*.cover
-*.log
-nosetests.xml
-coverage.xml
-*.coveragerc
-test-results/
+*.html  # Reportes HTML si no los necesitas en el repo
 
-# Archivos de configuración de herramientas de desarrollo
+# Archivos de VSCode o editores
 .vscode/
 .idea/
 
-# Archivos del sistema operativo
+# Archivos temporales o del sistema
 .DS_Store
 Thumbs.db
 
-# Archivos de salida de builds
-build/
-dist/
-*.egg-info/
-
-# Archivos de bases de datos temporales
-*.sqlite3
-
-# Archivos generados por GitHub Actions
-.github/workflows/__pycache__/
-
-# Archivos del entorno Django
+# Archivos de pruebas
 *.log
-local_settings.py
+*.tmp
 
-# Otros
-*.pot
-*.mo
-*.swp
+# Compilados de Python
+*.py[cod]
+__pycache__/
+
+# Archivos de configuraciones del sistema o de testing
+NUL
+

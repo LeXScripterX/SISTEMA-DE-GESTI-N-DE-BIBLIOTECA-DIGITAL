@@ -1,4 +1,5 @@
 asgiref==3.8.1
+colorama==0.4.6
 diff-match-patch==20241021
 Django==5.1
 django-cors-headers==4.7.0
@@ -7,13 +8,21 @@ django-import-export==4.3.7
 django-phonenumber-field==8.1.0
 djangorestframework==3.15.2
 drf-yasg==1.21.10
+factory-boy==3.3.0
+Faker==37.3.0
+import-export==0.3.1
 inflection==0.5.1
 iniconfig==2.1.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
 packaging==24.2
 phonenumbers==9.0.3
 pillow==10.4.0
 pluggy==1.5.0
 pytest==8.3.5
+pytest-django==4.8.0
+pytest-html==4.1.1
+pytest-metadata==3.1.1
 pytz==2025.2
 PyYAML==6.0.2
 sqlparse==0.5.1
