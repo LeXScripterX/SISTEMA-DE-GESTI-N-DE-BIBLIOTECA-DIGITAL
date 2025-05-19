@@ -5,7 +5,7 @@ venv/
 __pycache__/
 
 # Archivos SQLite (pueden ignorarse si no los necesitas versionar)
-db.sqlite3
+#db.sqlite3
 
 # Configuración de Pytest
 .pytest_cache/

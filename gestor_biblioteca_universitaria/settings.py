@@ -47,11 +47,11 @@ INSTALLED_APPS = [
     'import_export',
     
     # Local apps
-    'usuarios',
-    'catalogo',
-    'prestamos',
-    'ejemplares',
-    'reportes',
+    'apps.usuarios.apps.UsuariosConfig',
+    'apps.catalogo.apps.CatalogoConfig',
+    'apps.prestamos.apps.PrestamosConfig',
+    'apps.ejemplares.apps.EjemplaresConfig',
+    'apps.reportes.apps.ReportesConfig',
 
 
 ]
